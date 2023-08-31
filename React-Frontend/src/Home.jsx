@@ -3,7 +3,7 @@ import { useStoreState } from "easy-peasy";
 
 function Home({ fetchError, isLoading }) {
 
-    const searchResult = useStoreState((state) => state.posts)
+    const searchResult = useStoreState((state) => state.searchResult)
 
     return(
         <main className="home">
